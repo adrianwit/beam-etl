@@ -1,0 +1,18 @@
+[
+  {},
+  {
+    "id": 1,
+    "name": "subject 1",
+    "type_id": 1
+  },
+  {
+    "id": 2,
+    "name": "subject 2",
+    "type_id": 2
+  },
+  {
+    "id": 3,
+    "name": "subject 3",
+    "type_id": 1
+  }
+]

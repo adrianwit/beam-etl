@@ -1,0 +1,22 @@
+tasks: $tasks
+defaults:
+  target: $serviceTarget
+pipeline:
+  destroy:
+    stop-images:
+      action: docker:stop-images
+      images:
+      - mysql
+  init:
+    services:
+      mysql:
+        workflow: service/mysql
+        name: endly_db2
+        version: "5.7"
+        credentials: $mysqlCredentials
+      mysql-ip:
+        action: docker:inspect
+        target: $target
+        name: endly_db2
+        post:
+        - mysqlIP = $Info[0].NetworkSettings.IPAddress

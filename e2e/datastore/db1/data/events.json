@@ -1,0 +1,74 @@
+[
+  {},
+  {
+    "id": 1,
+    "sessionId":"4FADCD4E-8395-4764-BD77-A7D5681EB8A0",
+    "eventTypeId": 1,
+    "subjectId": 100,
+    "demandSideId":2000,
+
+    "supplySideSideId":3000,
+    "locationId": 20,
+
+    "charge": 2.1,
+    "payment": 1.4,
+    "timestamp":"2018-01-10 16:02:01 UTC"
+  },
+    {
+      "id": 1,
+      "sessionId":"4FADCD4E-5395-4764-BD77-A7D5681EB8A0",
+      "eventTypeId": 1,
+      "demandSideId":2001,
+      "subjectId": 100,
+
+      "supplySideSideId":3000,
+      "locationId": 20,
+
+      "charge": 2.1,
+      "payment": 1.4,
+      "timestamp":"2018-01-10 16:02:01 UTC"
+    },
+  {
+    "id": 1,
+    "sessionId":"4FEDCD4E-8395-4764-BD77-A7D5681EB8A0",
+    "eventTypeId": 1,
+
+    "demandSideId":2001,
+    "subjectId": 101,
+
+    "supplySideSideId":3000,
+    "locationId": 21,
+
+    "charge": 2.2,
+    "payment": 1.3,
+    "timestamp":"2018-01-10 16:02:01 UTC"
+  },
+  {
+    "id": 1,
+    "sessionId":"4FADCD4E-8395-4764-BD77-A7A568EEB8A0",
+    "eventTypeId": 2,
+    "demandSideId":2000,
+    "subjectId": 101,
+
+    "supplySideSideId":3000,
+    "locationId": 21,
+
+    "charge": 2.0,
+    "payment": 1.2,
+    "timestamp":"2018-01-10 16:02:01 UTC"
+  },
+  {
+    "id": 1,
+    "sessionId":"4FADCD4E-8395-4764-BD77-A7A568EEB8A0",
+    "eventTypeId": 2,
+    "demandSideId":2000,
+    "subjectId": 101,
+
+    "supplySideSideId":3000,
+    "locationId": 22,
+
+    "charge": 2.0,
+    "payment": 1.2,
+    "timestamp":"2018-01-10 16:02:01 UTC"
+  }
+]

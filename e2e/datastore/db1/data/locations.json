@@ -1,0 +1,13 @@
+[
+    {
+        "id":20,
+        "typeId":1,
+        "revenueShare":10
+    },
+    {
+        "id":21,
+        "typeId":2,
+        "charge": 1
+    }
+
+]

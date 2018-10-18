@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS subjects;
+
+CREATE TABLE subjects (
+  id      INT AUTO_INCREMENT PRIMARY KEY,
+  name    VARCHAR(255) DEFAULT NULL,
+  type_id INT NOT NULL,
+  UNIQUE (name)
+);
+
+
+CREATE TABLE journal (
+  id      INT AUTO_INCREMENT PRIMARY KEY,
+  timestamp TIMESTAMP,
+  level   VARCHAR(255) DEFAULT NULL,
+  message VARCHAR(255) DEFAULT NULL
+);
+
